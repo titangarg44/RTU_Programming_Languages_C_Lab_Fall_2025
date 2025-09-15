@@ -11,4 +11,10 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 
-// Okay sir
+int new(){
+   int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    printf("Number = %d",num);
+    return 0;
+}
